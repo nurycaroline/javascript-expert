@@ -10,4 +10,10 @@ Para praticar modifiquei o projeto da aula para tbm fazer o contrário JSON para
 
 ### Stubs
 
-Nessa aula vi como usar o conceito Stub que é utilizado para substituir algum comportamento do sistema por objetos estáticos, por exemplo, 'mockar' o resultado da api do Star wars sem depender da internet e disponibilidade da api para executar os testes. Foi usado a lib Sinon que permite definirmos uma função que por baixo dos panos será subsitituida por um valor estático.
+Nessa aula vi como usar o conceito Stub que é utilizado para substituir algum comportamento do sistema por objetos estáticos, por exemplo, 'mockar' o resultado da api do Star wars sem depender da internet e disponibilidade da api para executar os testes. Foi usado a lib Sinon que possui um metodo para stub que permite definirmos uma função que por baixo dos panos será subsitituida por um valor estático.
+
+### Spies
+
+Nessa aula vi como usar o conceito Spies que observa uma determinada função validando algumas informações, tais como: a quantidade de vezes que essa função foi chamada, com quais parâmetros e quais foram os resultados retornados. Os spies são uteis em cenários com funções recursivas.
+Usando aa Lib Sinon, tem um metodo spy que retorna algumas informações.
+Para praticar criei um teste para contar regresivo de 10 até 0.
