@@ -17,3 +17,8 @@ Nessa aula vi como usar o conceito Stub que é utilizado para substituir algum c
 Nessa aula vi como usar o conceito Spies que observa uma determinada função validando algumas informações, tais como: a quantidade de vezes que essa função foi chamada, com quais parâmetros e quais foram os resultados retornados. Os spies são uteis em cenários com funções recursivas.
 Usando aa Lib Sinon, tem um metodo spy que retorna algumas informações.
 Para praticar criei um teste para contar regresivo de 10 até 0.
+
+### Testes end-to-end e Code Coverage
+
+Nessa aula vi como criar uma API sem frameworks e implementar testes end-to-end e coverage.
+Foi usado as libs mocha e superteste para testar o retorno das rotas do ponto de vista do usuário.
