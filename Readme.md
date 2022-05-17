@@ -29,4 +29,5 @@ Nessa aula foi abordado o que é TDD e BDD e como são utilizados.
 
 ### Projeto Final
 
-
+No projeto final vi como criar testes unitarios para uma aplicaçãoo de alugel de carros usando TDD e BDD.
+Na criação de teste foi utilizado as lib Sinon, Chai e Supertest, e todos os conceitos vistos nas aulas anteriores.
