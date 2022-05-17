@@ -22,3 +22,7 @@ Para praticar criei um teste para contar regresivo de 10 até 0.
 
 Nessa aula vi como criar uma API sem frameworks e implementar testes end-to-end e coverage.
 Foi usado as libs mocha e superteste para testar o retorno das rotas do ponto de vista do usuário.
+
+### Test Driven Development e Behaviour Driven Development
+
+Nessa aula foi abordado o que é TDD e BDD e como são utilizados.
