@@ -1,0 +1,23 @@
+[
+  {
+    "id": "116ae7b2-7019-4f9e-9ad0-6d4ddd8d08d6",
+    "name": "Corvette",
+    "releaseYear": 2020,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "beb74905-28b2-42c6-8660-cabe60d3111f",
+    "name": "Aventador",
+    "releaseYear": 2020,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "c4e47758-45b7-4e56-9e91-ac677486f246",
+    "name": "Challenger",
+    "releaseYear": 2019,
+    "available": true,
+    "gasAvailable": true
+  }
+]
