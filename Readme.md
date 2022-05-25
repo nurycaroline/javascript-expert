@@ -61,3 +61,17 @@ Coerção de Tipos é a conversão de um valor para outro tipo, por exemplo, str
 
 - Usar sempre triplo igual ( === )
 - Cuidado nas conversões implícitas
+
+### Prototype Chain - Herança em Javascript
+
+Internamente tudo no javascript é objeto. 
+
+Herança de objetos: É a habilidade de acessar métodos e propriedade de outro objeto pai a partir de um objeto derivado. No javascript a herança é feita pelo prototype e pode ser chamada também de herança de protótipos.
+
+Prototype chain: É o processo de pesquisa entre as classes até encontrar o objeto, em outras palavras, o motor do javascript olha para o prototype do prototype, passando por todas as instâncias até o objeto ser encontrado ou o prototype foi igual a null. Caso não seja encontrado o objeto, ai então é retornado undefined
+
+__proto__: é a referência do objeto que possui das propriedades nele
+
+Quando não utilizamos o new o primeiro __proto__ vai ser sempre a instância da Function, sem herdar nossas classes e para acessas teríamos de usar o prototype__proto__, o que deixaria o código verboso.
+
+E ao usar o new, __proto__ recebe o prototype e assim, o motor do javascript faz o prototype chain, buscando nos prototypes a implementação solicitada.
