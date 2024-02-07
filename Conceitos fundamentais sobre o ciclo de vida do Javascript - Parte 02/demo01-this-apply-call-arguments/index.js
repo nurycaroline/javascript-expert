@@ -5,6 +5,7 @@ const { watch, promises: { readFile } } = require('fs')
 class File {
     watch(event, filename) {
         console.log('this', this)
+        // usar o arguments é uma má pratica, pois não sabemos o que estamos recebendo
         console.log('arguments', Array.prototype.slice.call(arguments))
         this.showContent(filename)
     }
